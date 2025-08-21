@@ -1,0 +1,5 @@
+
+echo 'sk_test_==>51Rtm3uCsTSXMbJ4Ry3KNrDjgOZiUQLOAJM2HuyBFTFlNCr2sma2nBAegsKsj0wd1sQNQgUfBsYejxohUhSbtE217007CVSf395' > replacements.txt
+
+
+

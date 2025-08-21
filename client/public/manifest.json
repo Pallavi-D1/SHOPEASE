@@ -2,7 +2,7 @@
   "name": "ShopEase Shopping",
   "short_name": "ShopEase",
   "description": "Premium e-commerce shopping experience",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
@@ -14,3 +14,5 @@
     }
   ]
 }
+
+

@@ -10,7 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview --mode production",
-    "preview:dev": "vite preview --mode development"
+    "preview:dev": "vite preview --mode development",
+    "start": "node index.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.8",

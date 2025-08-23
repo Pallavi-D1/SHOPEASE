@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.mjs",
+    "rebuild": "npm rebuild bcrypt --build-from-source",
     "dev": "cross-env NODE_ENV=development nodemon index.mjs",
     "server": "cross-env NODE_ENV=development nodemon index.mjs",
     "prod": "cross-env NODE_ENV=production node index.mjs"
@@ -14,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "detect-port": "^2.1.0",

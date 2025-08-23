@@ -58,6 +58,9 @@ connectCloudinary();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// 👉 Added this line to serve static images from /uploads
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
 const routesPath = path.resolve(__dirname, "./routes");
 const routeFiles = readdirSync(routesPath);
 routeFiles.map(async (file) => {

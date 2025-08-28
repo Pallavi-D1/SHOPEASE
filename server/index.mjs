@@ -20,7 +20,7 @@ const allowedOrigins = [
   "http://localhost:8081",
   "http://10.0.2.2:8081",
   "http://10.0.2.2:8000",
-  "https://shopease-backend-pxin.onrender.com",
+  "https://shopeasep.netlify.app" 
 ].filter(Boolean);
 
 console.log("Allowed CORS Origins:", allowedOrigins);

@@ -5,12 +5,12 @@ const checkConfig = (server) => {
   switch (server) {
     case "production":
       config = {
-        baseUrl: "http://localhost:8000",
+        baseUrl: "https://shopease-backend-pxin.onrender.com",
       };
       break;
     case "local":
       config = {
-        baseUrl: "http://localhost:8000",
+        baseUrl: "https://shopease-backend-pxin.onrender.com",
       };
       break;
     default:
